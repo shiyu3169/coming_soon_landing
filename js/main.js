@@ -21,10 +21,10 @@ const intvl = setInterval(() => {
 
   // Display result
   countdown.innerHTML = `
-    <div>${days}<spn>days</spn></div>
-    <div>${hours}<spn>Hours</spn></div>
-    <div>${minutes}<spn>Minutes</spn></div>
-    <div>${seconds}<spn>Seconds</spn></div>
+    <div>${days}<span>days</span></div>
+    <div>${hours}<span>Hours</span></div>
+    <div>${minutes}<span>Minutes</span></div>
+    <div>${seconds}<span>Seconds</span></div>
   `;
 
   // If launch date passed
